@@ -1,0 +1,12 @@
+working log
+Github personal website
+Nethan S
+
+
+Wednesday 12/8/21
+- Started personal project website
+- Got extremely basic hello world to work
+- Trying to get hello world with react code to work
+
+Thursday 12/9/21
+- Got hello world with react code to work following (https://medium.com/@derekgc/deploy-a-react-app-on-github-user-page-25b6991dec87)

@@ -1,0 +1,20 @@
+
+
+
+
+
+                            GitHub Pages User site
+Hello World set-up
+- create a public repo named [username].github.io (where username is your username)
+- clone the repo locally
+- add index.html with some text to be displayed inside
+- git add, commit, and push the change
+- now visible at https://username.github.io (for me https://nethanmsanchez.github.io)
+
+React Hello World set-up
+- use the same repo created in the previous "Hello World set-up"
+- copy the react code to the repo from a create-react-app
+- inside the folder with the react code run: $ npm run build
+- then copy all of the contents of the auto created build folder into the main repo (not in any folder)
+    - this step and the one before can be added to a script in package.json for convenience
+- git add, commit, and push and done
