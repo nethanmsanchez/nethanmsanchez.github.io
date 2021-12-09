@@ -1,0 +1,18 @@
+git.txt
+Github personal website
+Nethan S
+
+
+
+
+
+master branch
+    - production code
+        - whatever is displayed at https://nethanmsanchez.github.io is from this branch
+    - last commit:
+        - Date: 12/9/21
+        - Description: Just a basic hello world react app
+
+dev branch
+    - developement code
+        - this code is WIP and once proved to work can be moved to master/production branch
