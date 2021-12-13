@@ -10,3 +10,6 @@ Wednesday 12/8/21
 
 Thursday 12/9/21
 - Got hello world with react code to work following (https://medium.com/@derekgc/deploy-a-react-app-on-github-user-page-25b6991dec87)
+
+Friday 12/10/21
+- Working on Routing functionality referencing (https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
