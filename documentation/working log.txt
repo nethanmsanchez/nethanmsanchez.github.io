@@ -13,3 +13,18 @@ Thursday 12/9/21
 
 Friday 12/10/21
 - Working on Routing functionality referencing (https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
+    - also (https://dev.to/amarjits/basic-guide-to-use-react-router-v6-35do)
+
+Sunday 12/12/21
+- Got Routing to work
+
+Monday 12/13/21
+- Created basic website design
+- created myLink.js component inspired by myNavBar.js
+
+Tuesday 12/14/21
+- Couldn't really work on anything today.
+
+Wednesday 12/13/21
+- Finished myNavBar, and a basic version of the Home page.
+    - will probably end up changing/adding stuff later
