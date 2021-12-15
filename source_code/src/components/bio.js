@@ -4,6 +4,7 @@
 // Created: 12/10/21
 
 import React from "react";
+import MyNavBar from "./myNavBar";
 
 
 class Bio extends React.Component{
@@ -21,6 +22,7 @@ class Bio extends React.Component{
 
         return (
             <div className="bio">
+                <MyNavBar title="Bio" page="Bio"/>
                 <h1>Hello You are in the bio page!!!!!!!!!!!!</h1>
             </div>
         )

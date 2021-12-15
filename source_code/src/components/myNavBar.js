@@ -4,73 +4,54 @@
 // Created: 12/10/21
 
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import MyLink from "./myLink";
+import "../myStyles.css";
 
-function MyNavBar(props) {
-    let navigate = useNavigate();
-    let [error, setError] = React.useState(null);
-
-    async function handleClick(e){
-        e.preventDefault();
-        navigate(props.routes[e.target.id]);
-    }
-
-    let out = () => {
-        let ans;
-        if(props.routes){
-            ans = props.routes.map( (item, index) =>
-                <button className="buttons" id={index} onClick={handleClick}>{props.labels[index]}</button>
-            )
+class MyNavBar extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            title: this.props.title,
+            page: this.props.page,
         }
-        console.log(props.length);
-        return ans;
     }
 
-    return(
-        <div>
-            {out()}
-        </div>
-    )
+
+
+
+    render(){
+        let home;
+        let bio;
+        if(this.state.page == "Welcome"){
+            home = "selected";
+            bio = "";
+        } else if(this.state.page == "Bio"){
+            home = "";
+            bio = "selected";
+        }
+
+        return (
+            <div className="my_nav_bar">
+                <div className="nb_spacer1"></div>
+                <h1 className="nb_title">
+                    {this.state.title}
+                </h1>
+                <div className="nb_spacer1"></div>
+                <div className="nb_spacer1"></div>
+                <div className="nb_nav">
+                    <MyLink curr={home} route="/" label="Home" />
+                    <MyLink curr={bio} route="/bio" label="Bio" /> 
+                </div>
+                <div className="nb_spacer1"></div>
+                <div className="nb_links">
+                    <a href="https://salty-fjord-36439.herokuapp.com/">My Site</a>
+                </div>
+                <div className="nb_spacer1"></div>
+            </div>
+        )
+    }
 }
 
 
-
-
-
-
-
-// class MyNavBar extends React.component{
-//     constructor(props){
-//         super(props);
-//         this.state = {
-//             // insert state here
-//             routes: [this.props.routes],
-//             labels: [this.props.labels],
-//         }
-//         //bind functions here
-//         this.handleClick = this.handleClick.bind(this);
-//     }
-
-//     handleClick(e){
-//         e.preventDefault();
-//         let navigate = useNavigate();
-//         // id's may need to be completely unique, so may need to change the index to another variable name
-//         navigate.push(this.state.routes[e.target.id]);
-//     }
-
-//     render(){
-//         let routes = null;
-//         routes = this.state.routes.map( (item, index) =>
-//             <button className="buttons" id={index} onClick={this.handleClick}>{this.state.labels[index]}</button>
-//         )
-
-//         return (
-//             <div className="my_nav_bar">
-//                 {routes}
-//             </div>
-//         );
-//     }
-// }
 
 export default MyNavBar;
