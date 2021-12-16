@@ -40,6 +40,7 @@ class HomePage extends React.Component{
                     <h2 className="hp_intro_title">Welcome to My Personal Site!</h2>
                     <p className="hp_intro">{this.state.intro}</p>
                 </div>
+                <div className="hp_divider"></div>
             </div>
         )
     }
