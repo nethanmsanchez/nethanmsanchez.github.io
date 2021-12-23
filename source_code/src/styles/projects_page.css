@@ -1,0 +1,108 @@
+
+
+
+
+
+
+
+
+
+.p_row_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20pt;
+    letter-spacing: 2.9px;
+    line-height: 1.2;
+    margin: 0px auto 50px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+
+
+
+@media only screen and (min-width: 830px){
+
+.p_container{
+  margin: 0px auto 0px;
+  max-width: 1000px;
+}
+
+.p_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50pt;
+    letter-spacing: 2.9px;
+    line-height: 1.5;
+    margin: 50px auto 120px auto;
+    padding: 0px 0px 0px 0px;
+    min-width: 350px;
+    text-align: center;
+    width: min-content;
+}
+
+.p_row_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30pt;
+    letter-spacing: 2.9px;
+    line-height: 1.2;
+    margin: 0px auto 50px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    min-width: 450px;
+    text-align: center;
+    width: fit-content;
+}
+
+.p_row{
+    display: flex;
+    margin: 0px 0px 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.p_row_last{
+    display: flex;
+    margin: 0px 0px 100px;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.p_row_what{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+    text-align: center;
+    width: 9%;
+}
+
+.p_row_text{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    line-height: .9;
+    margin: 0px 0px 0px;
+    padding: 10px;
+    width: 73%;
+    word-spacing: -3px;
+}
+
+
+
+}

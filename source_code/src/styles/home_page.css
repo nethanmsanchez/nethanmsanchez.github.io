@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+.home_page{
+    background-color: aliceblue;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    scrollbar-gutter: stable both-edges;
+    width: 100%;
+}
+
+.hp_nav_container{
+    position:fixed;
+    top: 0;
+    left:0;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.hp_intro_container{
+    background-color: #c2fdee;
+    margin: 0px;
+    width: 100%;
+}
+
+.hp_intro{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.hp_intro_bio_divider{
+    background-image: linear-gradient(#c2fdee, #cce0fd);
+    height: 300px;
+    width: 100%;
+}
+
+.hp_bio_container{
+    background-color: #cce0fd;
+    margin: 0px 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.hp_bio{
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.hp_bio_resume_divider{
+    background-image: linear-gradient(#cce0fd, #d5c4fd);
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.hp_resume_container{
+    background-color: #d5c4fd;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.hp_resume_cl_divider{
+    background-image: linear-gradient(#d5c4fd, #f7d4fc);
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.hp_cl_container{
+    background-color: #f7d4fc;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.hp_cl_proj_divider{
+    background-image: linear-gradient(#f7d4fc, #fccaca);
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.hp_proj_container{
+    background-color: #fccaca;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+    height: min-contentc;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------
+                                            app styles
+----------------------------------------------------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+  
+  
+.app_style{
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+}
+
+.body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,232 @@
+
+
+
+
+
+@media only screen and (max-width: 829.99px){
+
+    .my_nav_bar{
+        align-items: center;
+        background-color: white;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        padding: 0px 0px 0px;
+        width: 100%;
+        
+    }
+    
+    .nb_title{
+        font-family:'Courier New', Courier, monospace;
+        height: fit-content;
+        margin: 0px 0px 0px;
+        text-align: center;
+        width: 20%
+    }
+    
+    .nb_cv_title{
+        font-family:'Courier New', Courier, monospace;
+        height: fit-content;
+        margin: 0px 0px 0px;
+        text-align: center;
+        width: 20%
+    }
+    
+    .nb_nav{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        padding: 0px 0px;
+        margin: 0px;
+        width: 48%;
+    }
+
+    .tab_container{
+        align-items: center;
+        border-left: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+        width: 19%;
+    }
+    .tab_container:last-child{
+        align-items: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+        width: 19%;
+    }
+    
+    .nb_links{ 
+        display: inline-block;
+        margin: 0px auto 0px;
+        padding: 0px 0px;
+        text-align: center;
+        width: 32%;
+    }
+    
+    .nb_tab{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 1.6vw;
+        height: fit-content;
+        margin: 0px;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        
+    }
+    
+    .tab_container:last-child{
+        align-items: center;
+        border-right: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+    }
+      
+    .tab_container:hover{
+        background-color: rgb(145, 155, 174);
+    }
+      
+    .nb_i_selected{
+        background-color: #c2fdee;
+    }
+    
+    .nb_b_selected{
+        background-color: #cce0fd;
+    }
+    
+    .nb_r_selected{
+        background-color: #d5c4fd;
+    }
+    
+    .nb_c_selected{
+        background-color: #f7d4fc;
+    }
+    
+    .nb_p_selected{
+        background-color: #fccaca;
+    }
+
+}
+
+@media only screen and (min-width: 830px){
+
+
+    .my_nav_bar{
+        align-items: center;
+        background-color: white;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        padding: 0px 0px 0px;
+        width: 100%;
+        
+    }
+    
+    .nb_title{
+        font-family:'Courier New', Courier, monospace;
+        height: fit-content;
+        margin: 0px 0px 0px;
+        text-align: center;
+        width: 20%
+    }
+    
+    .nb_cv_title{
+        font-family:'Courier New', Courier, monospace;
+        height: fit-content;
+        margin: 0px 0px 0px;
+        text-align: center;
+        width: 20%
+    }
+    
+    .nb_nav{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        padding: 0px 0px;
+        margin: 0px;
+        width: 48%;
+    }
+
+    .tab_container{
+        align-items: center;
+        border-left: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+        width: 19%;
+    }
+    .tab_container:last-child{
+        align-items: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+        width: 19%;
+    }
+    
+    .nb_links{ 
+        display: inline-block;
+        margin: 0px auto 0px;
+        padding: 0px 0px;
+        text-align: center;
+        width: 32%;
+    }
+    
+    .nb_tab{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 1.6vw;
+        height: fit-content;
+        margin: 0px;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        
+    }
+    
+    .tab_container:last-child{
+        align-items: center;
+        border-right: 1px solid black;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        vertical-align: middle;
+    }
+      
+    .tab_container:hover{
+        background-color: rgb(145, 155, 174);
+    }
+      
+    .nb_i_selected{
+        background-color: #c2fdee;
+    }
+    
+    .nb_b_selected{
+        background-color: #cce0fd;
+    }
+    
+    .nb_r_selected{
+        background-color: #d5c4fd;
+    }
+    
+    .nb_c_selected{
+        background-color: #f7d4fc;
+    }
+    
+    .nb_p_selected{
+        background-color: #fccaca;
+    }
+    
+
+}

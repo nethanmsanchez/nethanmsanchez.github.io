@@ -1,0 +1,99 @@
+
+
+
+
+
+
+.ip_intro_container{
+    background-color: #c2fdee;
+    height: min-content;
+    margin: 0px auto 0px;
+    padding: 0px 0px 0px;
+    width: 100%;
+}
+
+.ip_profpic{
+    border-radius: 50%;
+    display: inline-block;
+    height: 220px;
+    margin: 0px auto;
+    width: 220px;
+}
+
+
+@media only screen and (min-width: 830px) {
+
+.ip_intro_container{
+    background-color: #c2fdee;
+    height: min-content;
+    margin: 50px auto 0px;
+    padding: 70px 0px 50px 0px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.ip_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50pt;
+    letter-spacing: 2.9px;
+    line-height: 1.5;
+    margin: 50px auto 120px;
+    padding: 0px 0px 0px 0px;
+    min-width: 350px;
+    position: relative;
+    text-align: center;
+    width: 35%;
+}
+
+.ip_row{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.ip_profpic{
+    border-radius: 50%;
+    display: inline-block;
+    height: 220px;
+    margin: 0px auto;
+    width: 220px;
+}
+
+
+.ip_profpic_container{
+    background-color: rgb(255, 255, 255, 0);
+    display: inline-block;
+    height: 220px;
+    width: 220px;
+}
+
+.ip_text_container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    width: 60%;
+}
+
+.ip_intro_title{
+    text-align: center;
+    
+}
+
+.ip_intro{
+    line-height: 2;
+    margin: 10px;
+}
+
+.ip_spacer{
+    display: inline-block;
+    width: 5%;
+}
+
+}
+
+
+

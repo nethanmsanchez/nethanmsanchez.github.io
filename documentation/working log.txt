@@ -28,3 +28,33 @@ Tuesday 12/14/21
 Wednesday 12/13/21
 - Finished myNavBar, and a basic version of the Home page.
     - will probably end up changing/adding stuff later
+
+Thursday 12/14/21
+- created wireframe of new website ui
+- started new myNavBar
+    - got the scrolling to work!
+        - followed https://stackoverflow.com/questions/43441856/how-to-scroll-to-an-element
+
+Sunday 12/19/21
+- finished intro and started bio 
+
+Monday 12/20/21
+- finished bio and starting docs
+- started getting pdf into project
+
+Tuesday 12/21/21
+- was able to get pdf to work following https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9
+    - also had to move pdf.worker.js or pdf.worker.min.js to public folder
+    - from https://stackoverflow.com/questions/60793727/failed-to-load-pdf-file-in-react-js > https://github.com/wojtekmaj/react-pdf#create-react-app
+- finished resume and cover letter
+- started projects
+- need to fix nav bar ( when scrolling to another section need to update navbar)
+
+
+Wednesday 12/22/21
+- worked on ui
+
+Thursday 12/23/21
+- finished ui for 830px and above
+- up
+

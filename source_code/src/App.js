@@ -4,9 +4,9 @@
 
 
 
-import './myStyles.css';
+import "./styles/home_page.css";
 import React from "react";
-import { Routes, Route, Link} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom';
 import HomePage from './components/homePage';
 import Bio from './components/bio';
