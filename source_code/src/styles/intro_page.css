@@ -8,16 +8,42 @@
     background-color: #c2fdee;
     height: min-content;
     margin: 0px auto 0px;
-    padding: 0px 0px 0px;
+    padding: 150px 0px 0px;
     width: 100%;
+}
+
+.ip_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
+    height: fit-content;
+    margin: 0px auto 75px;
+    font-size: 10vw;
+    width: fit-content;
+}
+
+.ip_profpic_container{
+    height: fit-content;
+    margin: 0px auto 50px;
+    width: fit-content;
 }
 
 .ip_profpic{
     border-radius: 50%;
     display: inline-block;
     height: 220px;
-    margin: 0px auto;
+    margin: 0px auto 0px;
     width: 220px;
+}
+
+.ip_text_container{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px auto 0px;
+    padding: 10px;
+    text-align: justify;
+    width: 80%;
 }
 
 
@@ -64,9 +90,9 @@
 
 
 .ip_profpic_container{
-    background-color: rgb(255, 255, 255, 0);
     display: inline-block;
     height: 220px;
+    margin: 0px 0px 0px;
     width: 220px;
 }
 

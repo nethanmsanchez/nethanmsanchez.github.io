@@ -13,6 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
 export default function Docs(props){
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1); // set to 1 to show first (and only) page
+    const [size, setSize] = useState(props.size);
 
     function onDocumentLoadSuccess({ numPages }){
         setNumPages(numPages);
@@ -31,10 +32,10 @@ export default function Docs(props){
                 options={{ workerSrc: "/pdf.worker.min.js" }}
                 onLoadSuccess={onDocumentLoadSuccess} >
                 <MediaQuery maxWidth={829.99}>
-                    <Page pageNumber={pageNumber} className="d_pdf_page" width={280} />
+                    <Page pageNumber={pageNumber} className="d_pdf_page" width={props.size} />
                 </MediaQuery>
                 <MediaQuery minWidth={830}>
-                    <Page pageNumber={pageNumber} className="d_pdf_page" width={700} />
+                    <Page pageNumber={pageNumber} className="d_pdf_page" width={props.size} />
                 </MediaQuery>
             </Document>
 

@@ -3,10 +3,16 @@
 
 
 
+
+.d_container{
+    margin: 0px auto 0px;
+    max-width: 1000px;
+}
+
 .d_title{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    height: 100px;
+    height: fit-content;
     font-family:'Courier New', Courier, monospace;
     font-size: 20pt;
     letter-spacing: 2.9px;
@@ -19,7 +25,14 @@
     width: 35%;
     min-width: fit-content;
 }
+.d_pdf_doc{
+    margin: 0px auto 0px;
+}
 
+.d_pdf_page{
+    margin: 0px auto 0px;
+    width: fit-content;
+}
 
 
 

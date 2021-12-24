@@ -31,18 +31,29 @@ class HomePage extends React.Component{
             projectsRef: React.createRef(),
             curr: "Intro",
             title: "Welcome",
+            pdf: (window.innerWidth*.8),
         }
         //bind functions here
         this.updateScroll = this.updateScroll.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleResize = this.handleResize.bind(this);
     }
 
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
     }
     
     componentWillUnmount(){
         window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+
+    async handleResize(e){
+        this.setState({
+            pdf: (window.innerWidth*.8),
+        })
+      
     }
 
     async updateScroll(curr){
@@ -121,13 +132,13 @@ class HomePage extends React.Component{
                 <div className="hp_bio_resume_divider"></div>
 
                 <div className="hp_resume_container" ref={this.state.resumeRef}>
-                    <Docs className="hp_resume" pdf={resumePDF} my_title="Resume"></Docs>
+                    <Docs className="hp_resume" pdf={resumePDF} my_title="Resume" size={this.state.pdf}></Docs>
                 </div>
 
                 <div className="hp_resume_cl_divider"></div>
 
                 <div className="hp_cl_container" ref={this.state.cover_letterRef}>
-                    <Docs className="hp_resume" pdf={cover_letterPDF} my_title="Cover Letter"></Docs>
+                    <Docs className="hp_resume" pdf={cover_letterPDF} my_title="Cover Letter" size={this.state.pdf}></Docs>
                 </div>
 
                 <div className="hp_cl_proj_divider"></div>
