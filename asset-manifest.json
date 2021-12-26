@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cca5ebd.chunk.css",
-    "main.js": "/static/js/main.279ec675.chunk.js",
-    "main.js.map": "/static/js/main.279ec675.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.62199b88.js",
-    "runtime-main.js.map": "/static/js/runtime-main.62199b88.js.map",
-    "static/js/2.fbb6ecef.chunk.js": "/static/js/2.fbb6ecef.chunk.js",
-    "static/js/2.fbb6ecef.chunk.js.map": "/static/js/2.fbb6ecef.chunk.js.map",
-    "static/js/3.780e8d9a.chunk.js": "/static/js/3.780e8d9a.chunk.js",
-    "static/js/3.780e8d9a.chunk.js.map": "/static/js/3.780e8d9a.chunk.js.map",
+    "main.css": "/static/css/main.ef8769be.chunk.css",
+    "main.js": "/static/js/main.85fba0bb.chunk.js",
+    "main.js.map": "/static/js/main.85fba0bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fcd0ef47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fcd0ef47.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.5bb6de08.chunk.js": "/static/js/2.5bb6de08.chunk.js",
+    "static/js/2.5bb6de08.chunk.js.map": "/static/js/2.5bb6de08.chunk.js.map",
+    "static/js/3.00b299b6.chunk.js": "/static/js/3.00b299b6.chunk.js",
+    "static/js/3.00b299b6.chunk.js.map": "/static/js/3.00b299b6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7cca5ebd.chunk.css.map": "/static/css/main.7cca5ebd.chunk.css.map",
-    "static/js/2.fbb6ecef.chunk.js.LICENSE.txt": "/static/js/2.fbb6ecef.chunk.js.LICENSE.txt",
+    "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.ef8769be.chunk.css.map": "/static/css/main.ef8769be.chunk.css.map",
+    "static/js/2.5bb6de08.chunk.js.LICENSE.txt": "/static/js/2.5bb6de08.chunk.js.LICENSE.txt",
+    "static/media/Snapchat_beach.283fb5f0.jpg": "/static/media/Snapchat_beach.283fb5f0.jpg",
+    "static/media/Snapchat_opers.595a8826.jpg": "/static/media/Snapchat_opers.595a8826.jpg",
     "static/media/cover_letter.fecb3f70.pdf": "/static/media/cover_letter.fecb3f70.pdf",
     "static/media/profile.c7a0b631.jpg": "/static/media/profile.c7a0b631.jpg",
     "static/media/resume.5232f94b.pdf": "/static/media/resume.5232f94b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.62199b88.js",
-    "static/js/2.fbb6ecef.chunk.js",
-    "static/css/main.7cca5ebd.chunk.css",
-    "static/js/main.279ec675.chunk.js"
+    "static/js/runtime-main.fcd0ef47.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.5bb6de08.chunk.js",
+    "static/css/main.ef8769be.chunk.css",
+    "static/js/main.85fba0bb.chunk.js"
   ]
 }
