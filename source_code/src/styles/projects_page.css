@@ -5,23 +5,71 @@
 
 
 
+.p_container{
+    margin: 0px auto 0px;
+    max-width: 1000px;
+}
 
-
-.p_row_title{
+.p_title{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    height: 50px;
+    height: fit-content;
     font-family:'Courier New', Courier, monospace;
-    font-size: 20pt;
-    letter-spacing: 2.9px;
-    line-height: 1.2;
-    margin: 0px auto 50px;
-    padding: 0px 0px 0px 0px;
-    position: relative;
+    font-size: 10vw;
+    margin: 0px auto 0px;
     text-align: center;
     width: fit-content;
 }
 
+.p_row_title{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: fit-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 7vw;
+    margin: 150px auto 50px;
+    padding: 0px 0px 0px;
+    text-align: center;
+    width: fit-content;
+}
+
+.p_row_title2{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: fit-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 8vw;
+    margin: 150px auto 50px;
+    text-align: center;
+    width: 500px;
+}
+
+.p_row{
+    margin: 0px auto 0px;
+    width: fit-content;
+}
+
+.p_row_what{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5vw;
+    margin: 0px auto 20px;
+    padding: 0px 5px 0px 5px;
+    height: fit-content;
+    text-align: center;
+    width: fit-content;
+}
+
+.p_row_text{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family:'Courier New', Courier, monospace;
+    height: fit-content;
+    margin: 0px auto 50px;
+    padding: 10px;
+    width: 90%;
+} 
 
 
 
@@ -35,7 +83,7 @@
 .p_title{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    height: 100px;
+    height: 100 fit-content;
     font-family:'Courier New', Courier, monospace;
     font-size: 50pt;
     letter-spacing: 2.9px;

@@ -31,7 +31,7 @@ class HomePage extends React.Component{
             projectsRef: React.createRef(),
             curr: "Intro",
             title: "Welcome",
-            pdf: (window.innerWidth*.8),
+            pdf: (window.innerWidth*.9),
         }
         //bind functions here
         this.updateScroll = this.updateScroll.bind(this);
@@ -51,7 +51,7 @@ class HomePage extends React.Component{
 
     async handleResize(e){
         this.setState({
-            pdf: (window.innerWidth*.8),
+            pdf: (window.innerWidth*.9),
         })
       
     }
@@ -72,10 +72,6 @@ class HomePage extends React.Component{
 
     async handleScroll(e){
         let element = e.target;
-        console.log(element);
-        console.log(document.documentElement);
-        console.log(document.documentElement.scrollTop);
-        console.log(this.state.bioRef.current.offsetTop - 200);
 
         if (0 <= document.documentElement.scrollTop && document.documentElement.scrollTop < (this.state.bioRef.current.offsetTop - 200)){
             this.setState({

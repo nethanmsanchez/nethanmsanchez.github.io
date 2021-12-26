@@ -54,10 +54,13 @@
     font-family:'Courier New', Courier, monospace;
     height: fit-content;
     margin: 0px auto 0px;
+    padding: 10px;
     width: 100%;
 }
 
-
+.bold{
+    font-weight: bold;
+}
 
 
 
@@ -132,8 +135,13 @@
 }
 
 .b_carousel_container{
-    width: 27%;
-    min-width: min-content;
+    width: 30%;
+}
+
+.b_carousel{
+    width: 250px;
+    height: 450px;
+    margin: 0px auto 0px;
 }
 
 .b_carousel_holder{
@@ -143,6 +151,10 @@
     padding: 0px;
     width: 275px;
 } 
+
+.b_caption{
+    
+}
 
 .bold{
     font-weight: bold;

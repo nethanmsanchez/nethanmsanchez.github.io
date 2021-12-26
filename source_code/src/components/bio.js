@@ -6,10 +6,11 @@
 import React, { useRef } from "react";
 import "../styles/bio_page.css";
 import pic from "../images/profile.jpg";
-import pic2 from "../images/logo192.png";
+import beach_pic from "../images/Snapchat_beach.jpg";
+import opers_pic from "../images/Snapchat_opers.jpg";
 import strings from "../strings";
 import Carousel from "react-bootstrap/Carousel";
-//import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 class Bio extends React.Component{
@@ -37,33 +38,47 @@ class Bio extends React.Component{
                         <p className="b_text">{strings[0]}</p>
                     </div>
  
-                    <div className="b_carousel_container">
-                        <div className="b_carousel_holder">Carousel Holder</div>
+                    {/*<div className="b_carousel_container">
+                        <Carousel>
+                            <Carousel.Item interval={2000}>
+                                <img className="d-block w-100 b_carousel" src={pic} alt="prof pic" />
+                                <Carousel.Caption>
+                                    <p> this is a picture</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item interval={2000}>
+                                <img className="d-block w-100 b_carousel" src={beach_pic} alt="prof pic" />
+                                <Carousel.Caption>
+                                    <p> this is another picture</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                        </Carousel>
                     </div>
+                    */}
                     
-                    {/*<Carousel>
-                        <Carousel.Item>
-                            <img className="d-block w-100 b_carousel" src={pic} alt="prof pic" />
-                            <Carousel.Caption>
-                                <p> this is a picture</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="d-block w-100" src={pic2} alt="prof pic" />
-                            <Carousel.Caption>
-                                <p> this is another picture</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                    </Carousel>*/}
 
                 </div>
 
                 <div className="b_row">
 
-                    <div className="b_carousel_container">
-                        <div className="b_carousel_holder">Carousel Holder</div>
-                    </div>
+                {/*
+                <div className="b_carousel_container">
+                    <Carousel>
+                        <Carousel.Item interval={2000}>
+                            <img className="d-block w-100 b_carousel" src={opers_pic} alt="prof pic" />
+                            <Carousel.Caption>
+                                <p> this is a picture</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <img className="d-block w-100 b_carousel" src={beach_pic} alt="prof pic" />
+                            <Carousel.Caption>
+                                <p> this is another picture</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                */}
 
                     <div className="b_col">
                         <div className="b_section_title">Hobbies</div>
@@ -96,9 +111,11 @@ class Bio extends React.Component{
                         </p>
                     </div>
 
+                    {/*
                     <div className="b_carousel_container">
                         <div className="b_carousel_holder">Carousel Holder</div>
                     </div>
+                    */}
 
                 </div>
 
