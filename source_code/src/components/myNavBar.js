@@ -6,6 +6,9 @@
 import React, {useState} from "react";
 import MediaQuery from 'react-responsive';
 import "../styles/my_nav_bar.css";
+import ft_logo from '../images/fantasylogo.png';
+import li_logo from '../images/linkedin_logo.png';
+import gh_logo from '../images/github_logo.png';
 
 class MyNavBar extends React.Component{
     constructor(props){
@@ -124,7 +127,17 @@ class MyNavBar extends React.Component{
                 </div>
               
                 <div className="nb_links">
-                    <a href="https://salty-fjord-36439.herokuapp.com/">My Site</a>
+                    <a className="nb_link_holder" href="https://salty-fjord-36439.herokuapp.com/">
+                        <img className="nb_link" src={ft_logo}></img>
+                    </a>
+
+                    <a className="nb_link_holder" href="https://linkedin.com/in/nethan-sanchez-7661ba89">
+                        <img className="nb_link_li" src={li_logo}></img>
+                    </a>
+
+                    <a className="nb_link_holder" href="https://github.com/nethanmsanchez">
+                        <img className="nb_link_gh" src={gh_logo}></img>
+                    </a>
                 </div>
                 
             </div>

@@ -30,7 +30,7 @@ let strings = [
     " I've only started cooking relatively recently, after working in a kitchen store called Sur La Table right \
     after graduating and moving back to the Sacramento area from college. Some of my favorite dishes to make (and eat) are \
     Carnitas, Baked Lasagna, Paprika Chicken & Rice, and Dutch Oven no Knead Bread.",
-    "Watching: Another one of my hobbies is watching movies and tv shows. Some of my favorite movies are \
+    " Watching: Another one of my hobbies is watching movies and tv shows. Some of my favorite movies are \
     \"The Lord of The Rings\", \"Harry Potter\", \"Star Wars\", \"Back to the Future\", and \"The Patriot\" \
     Some of the shows I've discovered recently include \"The Americans\", \"Justified\", \"The Mandalorian\", \
     \"Stranger Things\", \"The Office\", and \"The Witcher\".",
