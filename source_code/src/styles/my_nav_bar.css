@@ -173,6 +173,7 @@
     
     .nb_title{
         font-family:'Courier New', Courier, monospace;
+        font-size: 2.5vw;
         height: fit-content;
         margin: 0px 0px 0px;
         text-align: center;
@@ -268,8 +269,9 @@
     
     .nb_tab{
         font-family:'Courier New', Courier, monospace;
-        font-size: 1.6vw;
+        font-size: 1.5vw;
         height: fit-content;
+        line-height: 100%;
         margin: 0px;
         padding: 0px 0px;
         text-align: center;

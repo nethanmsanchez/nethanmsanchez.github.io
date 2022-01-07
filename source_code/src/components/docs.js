@@ -22,6 +22,11 @@ export default function Docs(props){
 
     const {pdf} = props;
 
+    let finalsize = props.size;
+    if (finalsize > 1000){
+        finalsize = 1000;
+    }
+
     return (
         < div className="d_container">
             <div className="d_title">{props.my_title}</div>
@@ -35,7 +40,7 @@ export default function Docs(props){
                     <Page pageNumber={pageNumber} className="d_pdf_page" width={props.size} />
                 </MediaQuery>
                 <MediaQuery minWidth={830}>
-                    <Page pageNumber={pageNumber} className="d_pdf_page" width={props.size} />
+                    <Page pageNumber={pageNumber} className="d_pdf_page" width={finalsize} />
                 </MediaQuery>
             </Document>
 
