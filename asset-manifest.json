@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.08035df3.chunk.css",
-    "main.js": "/static/js/main.65ecbeec.chunk.js",
-    "main.js.map": "/static/js/main.65ecbeec.chunk.js.map",
+    "main.css": "/static/css/main.cfbc121d.chunk.css",
+    "main.js": "/static/js/main.5ce8963a.chunk.js",
+    "main.js.map": "/static/js/main.5ce8963a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fcd0ef47.js",
     "runtime-main.js.map": "/static/js/runtime-main.fcd0ef47.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/static/css/2.8c0e6b67.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.00b299b6.chunk.js.map": "/static/js/3.00b299b6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.08035df3.chunk.css.map": "/static/css/main.08035df3.chunk.css.map",
+    "static/css/main.cfbc121d.chunk.css.map": "/static/css/main.cfbc121d.chunk.css.map",
     "static/js/2.5bb6de08.chunk.js.LICENSE.txt": "/static/js/2.5bb6de08.chunk.js.LICENSE.txt",
     "static/media/Snapchat_beach.283fb5f0.jpg": "/static/media/Snapchat_beach.283fb5f0.jpg",
     "static/media/Snapchat_opers.595a8826.jpg": "/static/media/Snapchat_opers.595a8826.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.fcd0ef47.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.5bb6de08.chunk.js",
-    "static/css/main.08035df3.chunk.css",
-    "static/js/main.65ecbeec.chunk.js"
+    "static/css/main.cfbc121d.chunk.css",
+    "static/js/main.5ce8963a.chunk.js"
   ]
 }
