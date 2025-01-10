@@ -28,3 +28,4 @@ To update the pages:
         - $ git add -A
         - $ git commit -m "message"
         - $ git push
+        (ssh pass : Ss...14...)
