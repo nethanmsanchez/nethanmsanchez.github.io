@@ -18,3 +18,13 @@ React Hello World set-up
 - then copy all of the contents of the auto created build folder into the main repo (not in any folder)
     - this step and the one before can be added to a script in package.json for convenience
 - git add, commit, and push and done
+
+
+
+To update the pages:
+- from nethanmsanchez.github.io(master)/source:
+    - run $ npm run deploy
+    - commit and push all changes with
+        - $ git add -A
+        - $ git commit -m "message"
+        - $ git push
